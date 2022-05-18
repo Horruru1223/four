@@ -1,0 +1,191 @@
+
+   text-decoration: none;
+  }
+
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+h2{
+  font-family: font-family: Helvetica, 'HelveticaRegular', regular;
+  font-size: 1.5em;
+  color: white;
+}
+
+h1{
+  font-family: font-family: Helvetica, 'HelveticaRegular', regular;
+  font-size: 4.5em;
+  color: white;
+}
+
+.bggif{
+  width: 100vw;
+  z-index: -1;
+  position: absolute;
+}
+
+.solid {
+  overflow: hidden;
+  background: black;
+  width: 100vw;
+  height: 0vw;
+  z-index: 1;
+  position: absolute;
+  /* animation: solid 8s forwards; */
+}
+
+/* @keyframes solid {
+  0%, 99% {
+    height: 0vw;
+  }
+  100% {
+    height: 100vw;
+  }
+} */
+
+.logo1{
+  top: 38vh;
+  left: 5vw;
+  width: 55vw;
+  z-index: 2;
+  position: absolute;
+  cursor: pointer;
+}
+
+.up{
+top: 4vh;
+width: 100%;
+height: 10%;
+position: absolute;
+z-index: 2;
+display: flex;
+justify-content: space-around;
+filter: blur(2.3px);
+cursor: pointer;
+}
+
+.up:hover{
+  filter: blur(0px);
+}
+
+.text_under_logo{
+  z-index: 2;
+  top: 62vh;
+  left: 48vw;
+  position: absolute;
+  filter: blur(2.3px);
+  cursor: pointer;
+}
+
+.text_under_logo:hover{
+  filter: blur(0px);
+}
+
+.one{
+  filter: blur(2.3px);
+}
+
+.one:hover{
+  filter: blur(0px);
+}
+
+.two{
+  filter: blur(2.3px);
+}
+
+.two:hover{
+  filter: blur(0px);
+}
+
+.three{
+  filter: blur(2.3px);
+}
+
+.three:hover{
+  filter: blur(0px);
+}
+
+.four{
+  filter: blur(2.3px);
+}
+
+.four:hover{
+  filter: blur(0px);
+}
+
+.click_t_u_l{
+  z-index: 2;
+  top: 44.5vh;
+  left: 74vw;
+  position: absolute;
+}
+
+.click_t_u_l_two{
+  z-index: 2;
+  top: 68vh;
+  left: 74vw;
+  position: absolute;
+  filter: blur(2.3px);
+}
+
+.click_t_u_l_two:hover{
+  filter: blur(0px);
+  cursor: pointer;
+}
+
+.modal_main{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  position: fixed;
+  bac
+}
+
+.blur_bg{
+  width: 200vw;
+  height: 200vw;
+  background: radial-gradient(at 0% 30%, white 10px, #4D4D4D 30%, black 50%);
+  /* margin: 14vw auto; */
+  /* background: white; */
+  /* border-radius: 20px; */
+  /* -webkit-backdrop-filter: blur(20px); */
+  opacity: 100%;
+}
+
+.close{
+  width: 3vw;
+  left: 90vw;
+  top: 15.5vw;
+  z-index: 6;
+  position: fixed;
+  filter: blur(2.3px);
+  cursor: pointer;
+}
+
+.close:hover{
+  filter: blur(0px);
+}
+
+.none{
+display: none;
+}
+
+
+/* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .blur_bg {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+.blur_bg {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  color: #333;
+  line-height: 1.5;
+  margin: 14vw auto;
+  width: 90vw;
+  padding: 1rem 2rem;
+} */
