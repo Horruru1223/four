@@ -110,10 +110,6 @@ cursor: url("../images/cursorpointer.svg"), auto;
 .contact{
   filter: blur(2.3px);
   cursor: url("../images/cursorpointer.svg"), auto;
-  /* animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: bounce-3;
-  animation-timing-function: ease; */
 }
 
 .contact:hover{
@@ -123,10 +119,6 @@ cursor: url("../images/cursorpointer.svg"), auto;
 .shop{
   filter: blur(2.3px);
   cursor: url("../images/cursorpointer.svg"), auto;
-  /* animation-duration: 2.2s;
-  animation-iteration-count: infinite;
-  animation-name: bounce-2;
-  animation-timing-function: ease; */
 }
 
 .shop:hover{
@@ -136,10 +128,6 @@ cursor: url("../images/cursorpointer.svg"), auto;
 .one{
   filter: blur(2.3px);
   cursor: url("../images/cursorpointer.svg"), auto;
-  /* animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-name: bounce-1;
-  animation-timing-function: ease; */
 }
 
 @keyframes bounce-1 {
@@ -150,16 +138,11 @@ cursor: url("../images/cursorpointer.svg"), auto;
 
 .one:hover{
   filter: blur(0px);
-  /* animation-play-state:paused; */
 }
 
 .two{
   filter: blur(2.3px);
   cursor: url("../images/cursorpointer.svg"), auto;
-  /* animation-duration: 1.8s;
-  animation-iteration-count: infinite;
-  animation-name: bounce-2;
-  animation-timing-function: ease; */
 }
 
 @keyframes bounce-2 {
@@ -175,10 +158,6 @@ cursor: url("../images/cursorpointer.svg"), auto;
 .three{
   filter: blur(2.3px);
   cursor: url("../images/cursorpointer.svg"), auto;
-  /* animation-duration: 1.7s;
-  animation-iteration-count: infinite;
-  animation-name: bounce-3;
-  animation-timing-function: ease; */
 }
 
 @keyframes bounce-3 {
@@ -194,10 +173,6 @@ cursor: url("../images/cursorpointer.svg"), auto;
 .four{
   filter: blur(2.3px);
   cursor: url("../images/cursorpointer.svg"), auto;
-  /* animation-duration: 2.5s;
-  animation-iteration-count: infinite;
-  animation-name: bounce-4;
-  animation-timing-function: ease; */
 }
 
 @keyframes bounce-4 {
@@ -330,11 +305,12 @@ display: none;
 
 .circle{
   width: 1.5%;
-  z-index: 5;
+  z-index: 25;
   top: 4.1%;
   left: 5%;
   position: absolute;
   filter: blur(10px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .circle:hover{
@@ -885,28 +861,104 @@ display: none;
 }
 
 .bol{
-  width: 20%;
+  width: 25%;
+  height: 100%;
   position: absolute;
   z-index: 12;
 }
 
 .lisus{
-  width: 20%;
+  width: 25%;
+  height: 100%;
   position: absolute;
   z-index: 13;
-  left: 33%;
+  left: 25%;
 }
 
 .jra{
-  width: 20%;
+  width: 25%;
+  height: 100%;
   position: absolute;
   z-index: 14;
-  left: 66%;
+  left: 50%;
 }
 
 .hos{
-  width: 20%;
+  width: 25%;
+  height: 100%;
   position: absolute;
   z-index: 15;
-  left: 100%;
+  left: 75%;
+  background: -webkit-linear-gradient(1deg, #526d94,#ffffff);
+  background: linear-gradient(1deg, #526d94,#ffffff);
+}
+
+.ss{
+  display: inline-block;
+  line-height: 0;
+  overflow-x: hidden;
+  overflow-x=y: hidden;
+}
+.ss{
+  transition: filter 0.5s linear;
+  filter: contrast(10%) brightness(0) grayscale(4) opacity(4);
+  transition: 1s;
+  display: block;
+  opacity: 100%;
+}
+.ss:hover{
+  filter: none;
+  transform: scale(1.1);
+  opacity: 100%;
+}
+
+.circle1{
+  width: 1.5%;
+  z-index: 25;
+  top: 4.1%;
+  left: 5%;
+  position: absolute;
+  filter: blur(6px);
+  cursor: url("../images/cursorpointer.svg"), auto;
+}
+
+.circle1:hover{
+  filter: blur(0px);
+}
+
+.txt{
+  width: 90%;
+  height: 8%;
+  position: absolute;
+  z-index: 30;
+  display: flex;
+  cursor: url("../images/cursorpointer.svg"), auto;
+}
+
+.bolt{
+  left: 5%;
+  top: 50vh;
+  position: absolute;
+  z-index: 31;
+}
+
+.lisust{
+  left: 31%;
+  top: 50vh;
+  position: absolute;
+  z-index: 32;
+}
+
+.jrat{
+  left: 63%;
+  top: 50vh;
+  position: absolute;
+  z-index: 33;
+}
+
+.host{
+  left: 92%;
+  top: 50vh;
+  position: absolute;
+  z-index: 34;
 }
