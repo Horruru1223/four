@@ -98,7 +98,12 @@ cursor: url("../images/cursorpointer.svg"), auto;
   top: 62vh;
   left: 48vw;
   position: absolute;
-  filter: blur(2.3px);
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: underlogo;
+  animation-timing-function: ease;
+  position: absolute;
+  /* filter: blur(2.3px); */
   cursor: url("../images/cursorpointer.svg"), auto;
 }
 
@@ -107,11 +112,17 @@ cursor: url("../images/cursorpointer.svg"), auto;
   cursor: url("../images/cursorpointer.svg"), auto;
 }
 
+@keyframes underlogo {
+       0%   { filter: blur(1.5px); }
+       50%  { filter: blur(2.5px); }
+       100% { filter: blur(1.5px); }
+}
+
 .contact{
   filter: blur(2.3px);
   z-index: 2;
   top: 66vh;
-  left: 48vw;
+  left: 74vw;
   position: absolute;
   cursor: url("../images/cursorpointer.svg"), auto;
 }
@@ -194,6 +205,7 @@ cursor: url("../images/cursorpointer.svg"), auto;
   top: 44.5vh;
   left: 74vw;
   position: absolute;
+  line-height: 30px;
 }
 
 .click_t_u_l_2{
@@ -270,7 +282,7 @@ display: none;
   top: 47%;
   left: 85%;
   filter: blur(2.3px);
-    cursor: url("../images/cursorpointer2.svg"), auto;
+  cursor: url("../images/cursorpointer2.svg"), auto;
 }
 
 .slide1:hover{
@@ -1250,4 +1262,87 @@ display: none;
   left: 60%;
   top: 300%;
   opacity: 100%;
+}
+
+.bookint{
+  width: 27%;
+  position: absolute;
+  z-index: 1;
+  left: 14%;
+  top: 13%;
+}
+
+.bookex{
+  width: 14.3%;
+  position: absolute;
+  z-index: 2;
+  left: 63%;
+  top: 13%;
+}
+
+.interier{
+  position: absolute;
+  z-index: 1;
+  left: 14%;
+  top: 90%;
+  cursor: url("../images/cursorpointer.svg"), auto;
+}
+
+.exterier{
+  position: absolute;
+  z-index: 1;
+  left: 63%;
+  top: 90%;
+  cursor: url("../images/cursorpointer.svg"), auto;
+}
+
+.slide_b1{
+  position: absolute;
+  z-index: 11;
+  top: 50%;
+  left: 83%;
+  filter: blur(2.3px);
+  cursor: url("../images/cursorpointer2.svg"), auto;
+}
+
+.slide_b1:hover{
+  filter: blur(0px);
+}
+
+.slide_b2{
+  position: absolute;
+  z-index: 11;
+  top: 50%;
+  left: 10%;
+  transform: rotate(180deg);
+  filter: blur(2.3px);
+  cursor: url("../images/cursorpointer2.svg"), auto;
+}
+
+.slide_b2:hover{
+  filter: blur(0px);
+}
+
+.books_inter1{
+  width: 30%;
+  position: absolute;
+  z-index: 1;
+  left: 34%;
+  top: 15%;
+}
+
+.books_inter2{
+  width: 57%;
+  position: absolute;
+  z-index: 2;
+  left: 24%;
+  top: 18%;
+}
+
+.books_inter3{
+  width: 57%;
+  position: absolute;
+  z-index: 3;
+  left: 24%;
+  top: 18%;
 }
