@@ -192,7 +192,7 @@ cursor: url("../images/cursorpointer.svg"), auto;
   position: absolute;
 }
 
-.click_t_u_l_two{
+.click_t_u_l_2{
   z-index: 2;
   top: 62vh;
   left: 74vw;
@@ -201,9 +201,7 @@ cursor: url("../images/cursorpointer.svg"), auto;
   cursor: url("../images/cursorpointer.svg"), auto;
 }
 
-.click_t_u_l_two:hover{
-  filter: blur(0px);
-  cursor: url("../images/cursorpointer.svg"), auto;
+s  filter: blur(0px);
 }
 
 .modal_main{
@@ -567,6 +565,8 @@ display: none;
   top: 320%;
   position: absolute;
   z-index: 16;
+  line-height: 50px;
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .r1{
@@ -933,7 +933,7 @@ display: none;
 
 .circle1{
   width: 1.5%;
-  z-index: 25;
+  z-index: 50;
   top: 4.1%;
   left: 5%;
   position: absolute;
@@ -1183,4 +1183,36 @@ display: none;
   left: 60%;
   top: 200%;
   opacity: 100%;
+}
+
+.text_ev3_1{
+  left: 9%;
+  top: 327%;
+  position: absolute;
+  z-index: 13;
+  line-height: 46px;
+}
+
+.text_ev3_2{
+  width: 30%;
+  left: 9%;
+  top: 349%;
+  position: absolute;
+  z-index: 13;
+  line-height: 35px;
+}
+
+.text_ev3_3{
+  width: 30%;
+  left: 9%;
+  top: 375%;
+  position: absolute;
+  z-index: 13;
+  filter: blur(2.3px);
+  font-style: italic;
+  cursor: url("../images/cursorpointer.svg"), auto;
+}
+
+.text_ev3_3:hover{
+  filter: blur(0px);
 }
