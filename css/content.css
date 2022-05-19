@@ -109,6 +109,10 @@ cursor: url("../images/cursorpointer.svg"), auto;
 
 .contact{
   filter: blur(2.3px);
+  z-index: 2;
+  top: 66vh;
+  left: 48vw;
+  position: absolute;
   cursor: url("../images/cursorpointer.svg"), auto;
 }
 
@@ -201,7 +205,8 @@ cursor: url("../images/cursorpointer.svg"), auto;
   cursor: url("../images/cursorpointer.svg"), auto;
 }
 
-s  filter: blur(0px);
+.click_t_u_l_2:hover{
+  filter: blur(0px);
 }
 
 .modal_main{
@@ -1215,4 +1220,34 @@ display: none;
 
 .text_ev3_3:hover{
   filter: blur(0px);
+}
+
+.poster1{
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  z-index: 4;
+  top: 300%;
+  left: 60%;
+  opacity: 100%;
+}
+
+.poster2{
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  top: 300%;
+  left: 60%;
+  opacity: 100%;
+}
+
+.poster3{
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  z-index: 6;
+  left: 60%;
+  top: 300%;
+  opacity: 100%;
 }
