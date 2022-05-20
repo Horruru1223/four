@@ -12,228 +12,228 @@ $(document).ready(function() {
       $('.click_t_u_l').toggleClass("none");
      });
 
-     // let current = 0;
-     //    $(document).ready(function(){
-     //      $(.slide1).click(function(){
-     //        if (current == 0){
-     //        $(.bg2r, .bg3r).css(display,none);
-     //        $(.bg1r).css(display,block);
-     //        current++;
-     //        }
-     //        else if (current == 1){
-     //        $(.bg1r, .bg3r).css(display,none);
-     //        $(.bg2r).css(display, block);
-     //        current++;
-     //        }
-     //        else if(current == 2){
-     //        $(.bg1r, .bg2r).css(display,none);
-     //        $(.bg3r).css(display, block);
-     //        current++;
-     //        }
-     //        // else if(current == 3){
-     //        // $(.msg1, .msg2, .msg3, .msg4, .msg6).css(display,none);
-     //        // $(.msg5).css(display, block);
-     //        // current++;
-     //        // }
-     //        // else if(current == 4){
-     //        // $(.msg1, .msg2, .msg3 .msg4, .msg5).css(display,none);
-     //        // $(.msg6).css(display, block);
-     //        // current++;
-     //        // }
-     //        // else if (current => 5){
-     //        // $(.msg1).css(display,block);
-     //        // $(.msg2, .msg3, .msg4, .msg5, .msg6).css(display,none);
-     //        // current = 0;
-     //        // }
-     //      });
-     //    });
-     //
-     //    $(.slide2).click(function(){
-     //        if (current <= 0){
-     //        $(.bg6r).css(display,block);
-     //        $(.bg2r, .bg4r, .bg3r, .bg5r, .bg1r).css(display,none);
-     //        current = 5;
-     //        }
-     //        else if (current == 4){
-     //        $(.bg1r, .bg2r, .bg3r, .bg5r, .bg6r).css(display,none);
-     //        $(.bg4r).css(display,block);
-     //        current--;
-     //        }
-     //        else if (current == 3){
-     //        $(.bg1r, .bg2r, .bg5r, .bg4r, .bg6r).css(display, none);
-     //        $(.bg3r).css(display, block);
-     //        current--;
-     //        }
-     //        else if (current == 2){
-     //        $(.bg1r, .bg3rr, .bg4r, .bg5r, .bg6r).css(display,none);
-     //        $(.bg2r).css(display, block);
-     //        current--;
-     //        }
-     //        else if (current == 1){
-     //        $(.bg2r, .bg3r, .bg4r, .bg5r, .bg6r).css(display, none);
-     //        $(.bg1r).css(display, block);
-     //        current--;
-     //        }
-     //        else if (current == 5){
-     //        $(.bg3r, .bg2r, .bg4r, .bg1r, .bg6r).css(display,none);
-     //        $(.bg5r).css(display, block);
-     //        current--;
-     //        }
-     //      });
+     let current = 0;
+        $(document).ready(function(){
+          $(".slide1").click(function(){
+            if (current == 0){
+            $(".bg2r, .bg3r").css("display","none");
+            $(".bg1r").css("display","block");
+            current++;
+            }
+            else if (current == 1){
+            $(".bg1r, .bg3r").css("display","none");
+            $(".bg2r").css("display", "block");
+            current++;
+            }
+            else if(current => 2){
+            $(".bg1r, .bg2r").css("display","none");
+            $(".bg3r").css("display", "block");
+            current = 0;
+            }
+            // else if(current == 3){
+            // $(.msg1, .msg2, .msg3, .msg4, .msg6).css(display,none);
+            // $(.msg5).css(display, block);
+            // current++;
+            // }
+            // else if(current == 4){
+            // $(.msg1, .msg2, .msg3 .msg4, .msg5).css(display,none);
+            // $(.msg6).css(display, block);
+            // current++;
+            // }
+            // else if (current => 5){
+            // $(.msg1).css(display,block);
+            // $(.msg2, .msg3, .msg4, .msg5, .msg6).css(display,none);
+            // current = 0;
+            // }
+          });
+        });
 
-          let current = 0;
+        // $(.slide2).click(function(){
+        //     if (current <= 0){
+        //     $(".bg6r").css("display","block");
+        //     $(".bg2r, .bg4r, .bg3r, .bg5r, .bg1r").css("display","none");
+        //     current = 5;
+        //     }
+        //     else if (current == 4){
+        //     $(".bg1r, .bg2r, .bg3r, .bg5r, .bg6r").css("display","none");
+        //     $(".bg4r").css("display","block");
+        //     current--;
+        //     }
+        //     else if (current == 3){
+        //     $(".bg1r, .bg2r, .bg5r, .bg4r, .bg6r").css("display", "none");
+        //     $(".bg3r").css("display", "block");
+        //     current--;
+        //     }
+        //     else if (current == 2){
+        //     $(.bg1r, .bg3rr, .bg4r, .bg5r, .bg6r).css(display,none);
+        //     $(.bg2r).css(display, block);
+        //     current--;
+        //     }
+        //     else if (current == 1){
+        //     $(.bg2r, .bg3r, .bg4r, .bg5r, .bg6r).css(display, none);
+        //     $(.bg1r).css(display, block);
+        //     current--;
+        //     }
+        //     else if (current == 5){
+        //     $(.bg3r, .bg2r, .bg4r, .bg1r, .bg6r).css(display,none);
+        //     $(.bg5r).css(display, block);
+        //     current--;
+        //     }
+        //   });
+
+          let current_2 = 0;
              $(document).ready(function(){
                $(".slide_b1").click(function(){
-                 if (current == 0){
+                 if (current_2 == 0){
                  $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8, .books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                  $(".books_inter1").css("display","block");
-                 current++;
+                 current_2++;
                  }
-                 else if (current == 1){
+                 else if (current_2 == 1){
                  $(".books_inter1, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7,  .books_inter8,.books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                  $(".books_inter2").css("display", "block");
-                 current++;
+                 current_2++;
                  }
-                 else if(current == 2){
+                 else if(current_2 == 2){
                  $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7,  .books_inter8,.books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                  $(".books_inter3").css("display", "block");
-                 current++;
+                 current_2++;
                  }
-                  else if(current == 3){
+                  else if(current_2 == 3){
                   $(".books_inter2, .books_inter1, .books_inter3, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter4").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 4){
+                  else if(current_2 == 4){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter1,.books_inter6,.books_inter7, .books_inter8,.books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter5").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 5){
+                  else if(current_2 == 5){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter1,.books_inter7, .books_inter8,.books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter6").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 6){
+                  else if(current_2 == 6){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter1, .books_inter8,.books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter7").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 7){
+                  else if(current_2 == 7){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter1,.books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter8").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 8){
+                  else if(current_2 == 8){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter9").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 9){
+                  else if(current_2 == 9){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter9,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter10").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 10){
+                  else if(current_2 == 10){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter9,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter11").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 11){
+                  else if(current_2 == 11){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter9, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter12").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 12){
+                  else if(current_2 == 12){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter9, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter13").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 13){
+                  else if(current_2 == 13){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter9,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter14").css( "display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 14){
+                  else if(current_2 == 14){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter9, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter15").css( "display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 15){
+                  else if(current_2 == 15){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter9,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter16").css( "display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 16){
+                  else if(current_2 == 16){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter9, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter17").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 17){
+                  else if(current_2 == 17){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter9, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter18").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 18){
+                  else if(current_2 == 18){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter9, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter19").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 19){
+                  else if(current_2 == 19){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter9,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter20").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 20){
+                  else if(current_2 == 20){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter9, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter21").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 21){
+                  else if(current_2 == 21){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter9, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter22").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 22){
+                  else if(current_2 == 22){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter9, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter23").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 23){
+                  else if(current_2 == 23){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter9, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter24").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 24){
+                  else if(current_2 == 24){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter9, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter25").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 25){
+                  else if(current_2 == 25){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter9, .books_inter27, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter26").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 26){
+                  else if(current_2 == 26){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter9, .books_inter28, .books_inter29").css("display","none");
                   $(".books_inter27").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 27){
+                  else if(current_2 == 27){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter9, .books_inter29").css("display","none");
                   $(".books_inter28").css("display", "block");
-                  current++;
+                  current_2++;
                   }
-                  else if(current == 28){
+                  else if(current_2 == 28){
                   $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter1,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter9").css("display","none");
                   $(".books_inter29").css("display", "block");
-                  current++;
+                  current_2++;
                   }
 
-                 else if (current => 29){
+                 else if (current_2 => 29){
                  $(".books_inter1").css("display","block");
                  $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7, .books_inter8,.books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
-                 current = 0;
+                 current_2 = 0;
                  }
                });
              });
