@@ -238,4 +238,101 @@ $(document).ready(function() {
                });
              });
 
+             let current_3 = 0;
+                $(document).ready(function(){
+                  $(".slide_b1").click(function(){
+                    if (current_3 == 0){
+                    $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8, .books_ex9,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                    $(".books_ex1").css("display","block");
+                    current_3++;
+                    }
+                    else if (current_3 == 1){
+                    $(".books_ex1, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7,  .books_ex8,.books_ex9,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                    $(".books_ex2").css("display", "block");
+                    current_3++;
+                    }
+                    else if(current_3 == 2){
+                    $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7,  .books_ex8,.books_ex9,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                    $(".books_ex3").css("display", "block");
+                    current_3++;
+                    }
+                     else if(current_3 == 3){
+                     $(".books_ex2, .books_ex1, .books_ex3, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex9,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex4").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 4){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex1,.books_ex6,.books_ex7, .books_ex8,.books_ex9,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex5").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 5){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex1,.books_ex7, .books_ex8,.books_ex9,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex6").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 6){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex1, .books_ex8,.books_ex9,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex7").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 7){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex1,.books_ex9,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex8").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 8){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex9").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 9){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex9,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex10").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 10){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex9,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex11").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 11){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex11,.books_ex9, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex12").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 12){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex11,.books_ex12, .books_ex9, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex13").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 13){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex9,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex14").css( "display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 14){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex9, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex15").css( "display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 15){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex9,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex16").css( "display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 == 16){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex9, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex17").css("display", "block");
+                     current_3++;
+                     }
+                     else if(current_3 => 17){
+                     $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex11,.books_ex12, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex9, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+                     $(".books_ex18").css("display", "block");
+                     current_3 = 0;
+                     }
+                     
+                  });
+                });
+
 });
