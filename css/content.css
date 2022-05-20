@@ -892,8 +892,13 @@ display: none;
 
 .video_big{
   position: absolute;
-  top: 32%;
-  left: 33%;
+  width: 61%;
+  top: 29%;
+  left: 19%;
+}
+
+.space{
+  width: 70%;
 }
 
 .bol{
@@ -1625,3 +1630,159 @@ display: none;
   left: 43%;
   top: 13%;
 }
+
+.books_ex1{
+  width: 14%;
+  position: absolute;
+  z-index: 1;
+  left: 42%;
+  top: 15%;
+}
+
+.books_ex2{
+  width: 57%;
+  position: absolute;
+  z-index: 2;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex3{
+  width: 57%;
+  position: absolute;
+  z-index: 3;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex4{
+  width: 57%;
+  position: absolute;
+  z-index: 4;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex6{
+  width: 57%;
+  position: absolute;
+  z-index: 6;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex7{
+  width: 57%;
+  position: absolute;
+  z-index: 7;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex8{
+  width: 57%;
+  position: absolute;
+  z-index: 8;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex9{
+  width: 57%;
+  position: absolute;
+  z-index: 9;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex10{
+  width: 57%;
+  position: absolute;
+  z-index: 10;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex11{
+  width: 57%;
+  position: absolute;
+  z-index: 11;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex12{
+  width: 57%;
+  position: absolute;
+  z-index: 12;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex13{
+  width: 57%;
+  position: absolute;
+  z-index: 13;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex14{
+  width: 57%;
+  position: absolute;
+  z-index: 14;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex15{
+  width: 57%;
+  position: absolute;
+  z-index: 15;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex16{
+  width: 57%;
+  position: absolute;
+  z-index: 16;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex17{
+  width: 57%;
+  position: absolute;
+  z-index: 17;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+.books_ex18{
+  width: 57%;
+  position: absolute;
+  z-index: 18;
+  left: 22%;
+  top: 18%;
+  display: none;
+}
+
+/* .space{
+  width: 79%;
+} */
