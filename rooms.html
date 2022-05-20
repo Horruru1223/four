@@ -10,6 +10,16 @@
     <script charset="utf-8" src="js/js.js"></script>
     <link href='https://fonts.google.com/specimen/Bitter#standard-styles' rel='stylesheet' type='text/css'>
 
+<script>
+   window.onload = function () {
+   document.body.classList.add('loaded_hiding');
+   window.setTimeout(function () {
+   document.body.classList.add('loaded');
+   document.body.classList.remove('loaded_hiding');
+ }, 500);
+}
+</script>
+
 
     <style>
        @font-face {
@@ -64,14 +74,25 @@
   </head>
   <body>
 
+<div class="preloader">
+  <div class="preloader__row">
+    <img class="circleload" src="images/circle.png">
+    </div>
+</div>
 
 <div class="container">
   <section>
-    <img class="bg1r" src="images/travel.gif">
-    <img class="bg2r" src="images/childhood.gif">
-    <img class="bg3r" src="images/work.gif">
     <img class="slide1" src="images/slide.svg">
     <img class="slide2" src="images/slide.svg">
+    <video class="bg1r" autoplay muted loop>
+    <source src="images/travel.mp4">
+    </video>
+    <video class="bg2r" autoplay muted loop>
+    <source src="images/child.mp4">
+    </video>
+    <video class="bg3r" autoplay muted loop>
+    <source src="images/job.mp4">
+    </video>
     </div>
   </section>
 
@@ -266,7 +287,7 @@
 
   <section>
     <div class="up">
-    <a href="index.html"><img class="circle" src="images/circle.png" alt=""></a>
+    <a href="index.html"><img class="circle" src="images/circle.png"></a>
     <a href="about.html" class="one"><h2>о центре</h2></a>
     <a href="rooms.html" class="two"><h2>бронь комнаты</h2></a>
     <a href="ivent.html" class="three"><h2>мероприятия</h2></a>
