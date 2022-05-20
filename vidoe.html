@@ -10,6 +10,15 @@
     <script charset="utf-8" src="js/js.js"></script>
     <link href='https://fonts.google.com/specimen/Bitter#standard-styles' rel='stylesheet' type='text/css'>
 
+    <script>
+       window.onload = function () {
+       document.body.classList.add('loaded_hiding');
+       window.setTimeout(function () {
+       document.body.classList.add('loaded');
+       document.body.classList.remove('loaded_hiding');
+     }, 500);
+    }
+    </script>
 
     <style>
        @font-face {
@@ -50,14 +59,20 @@
   </head>
   <body>
 
-<div class="video_big">
+<div class="preloader">
+  <div class="preloader__row">
+    <img class="circleload" src="images/circle.png">
+  </div>
+</div>
 
-  <center><iframe width="560" height="315" src="https://www.youtube.com/embed/lpLJynN_cq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video_big">
+  <center>
+    <video class="space" controls loop>
+    <source src="images/space.mp4">
+    </video>
 </center>
 </div>
 <a href="about.html"><img class="circle" src="images/circle.png" alt=""></a>
-
-
 
   </body>
 </html>
