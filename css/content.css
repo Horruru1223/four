@@ -1612,12 +1612,12 @@ display: none;
   left: 50%;
   display: flex;
   align-items: center;
-  animation: preloader 1s infinite linear;
+  animation: preloader 2s infinite linear;
 }
 
 @keyframes preloader {
   0% {opacity: 0px;}
-  50% {opacity: 4px;}
+  50% {opacity: 10px;}
   100% {opacity: 0px;}
 }
 
