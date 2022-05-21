@@ -1,3 +1,9 @@
+
+* {
+  padding: 0;
+  margin: 0px;
+}
+
 a {
    text-decoration: none;
   }
@@ -334,7 +340,8 @@ display: none;
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: -3;
+  z-index: -30;
+  top: 0;
 }
 
 .circle{
@@ -506,7 +513,7 @@ display: none;
 .ex1{
  width: 100%;
  position: absolute;
- z-index: 6;
+ z-index: 66;
  top: 200%;
  height: 40%;
 }
@@ -514,7 +521,7 @@ display: none;
 .ex2{
  width: 100%;
  position: absolute;
- z-index: 7;
+ z-index: 77;
  top: 200%;
  height: 40%;
  -webkit-animation-name: slide;
@@ -527,7 +534,7 @@ display: none;
 .ex3{
  width: 100%;
  position: absolute;
- z-index: 8;
+ z-index: 88;
  top: 200%;
  height: 40%;
  -webkit-animation-name: slide;
@@ -540,7 +547,7 @@ display: none;
 .ex4{
  width: 100%;
  position: absolute;
- z-index: 9;
+ z-index: 99;
  top: 200%;
  height: 40%;
  -webkit-animation-name: slide;
@@ -553,7 +560,7 @@ display: none;
 .ex5{
  width: 100%;
  position: absolute;
- z-index: 10;
+ z-index: 100;
  top: 200%;
  height: 40%;
  -webkit-animation-name: slide;
@@ -1605,7 +1612,7 @@ display: none;
   left: 50%;
   display: flex;
   align-items: center;
-  animation: preloader 2s infinite linear;
+  animation: preloader 1s infinite linear;
 }
 
 @keyframes preloader {
@@ -1785,4 +1792,9 @@ display: none;
 
 /* .space{
   width: 79%;
+} */
+
+/* .solid2{
+  position: absolute;
+  z-index: 300;
 } */
