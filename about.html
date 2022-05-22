@@ -9,10 +9,10 @@
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script charset="utf-8" src="js/js.js"></script>
     <script src="jquery.onepage-scroll.js"></script>
-    <!-- <script src="scroll-slide.min.js"></script> -->
-    <!-- <link rel="stylesheet" href="onepage-scroll.css"> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ==" crossorigin="anonymous"></script> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.css" integrity="sha512-hGBKkjAVJUXoImyDezOKpzuY4LS1eTvJ4HTC/pbxn47x5zNzGA1vi3vFQhhOehWLTNHdn+2Yqh/IRNPw/8JF/A==" crossorigin="anonymous" /> -->
+    <script src="scroll-slide.min.js"></script>
+    <link rel="stylesheet" href="onepage-scroll.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.css" integrity="sha512-hGBKkjAVJUXoImyDezOKpzuY4LS1eTvJ4HTC/pbxn47x5zNzGA1vi3vFQhhOehWLTNHdn+2Yqh/IRNPw/8JF/A==" crossorigin="anonymous" />
     <style>
        @font-face {
         font-family: 'HelveticaBold';
@@ -137,35 +137,40 @@
   <a href="artobj.html" class="text_ex3">
     <h3>арт-объекты</h3>
   </a>
+
+  <a href="vidoe.html" class="video">
+    <h6>ВИДЕО</h6>
+  </a>
+
 </section>
 
 <section>
-<div>
+  <div class="videotxt100">
   <div class="text_video">
     <marquee behavior="scroll" width="100%" scrolldelay="60" loop="-1" scrollamount="20" direction="left"><a href="vidoe.html"><h1>ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО ВИДЕО </h1></a></marquee>
   </div>
-  </div>
+</div>
 </section>
 
 </div>
 
 <script>
-// $(".main").onepage_scroll({
-//  sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
-//  easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
-//                                   // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
-//  animationTime: 500,              // AnimationTime let you define how long each section takes to animate
-//  pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
-//  updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
-//  beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
-//  afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
-//  loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
-//  keyboard: true,                  // You can activate the keyboard controls
-//  responsiveFallback: false,       // You can fallback to normal page scroll by defining the width of the browser in which
-//                                   // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
-//                                   // the browser's width is less than 600, the fallback will kick in.
-//  direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".
-// });
+$(".main").onepage_scroll({
+ sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+ easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+                                  // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+ animationTime: 1000,              // AnimationTime let you define how long each section takes to animate
+ pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+ updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+ beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+ afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+ loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+ keyboard: true,                  // You can activate the keyboard controls
+ responsiveFallback: false,       // You can fallback to normal page scroll by defining the width of the browser in which
+                                  // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+                                  // the browser's width is less than 600, the fallback will kick in.
+ direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".
+});
 
 // const scroll = new Scroll({
 //   viewport: document.getElementById('.main'),
