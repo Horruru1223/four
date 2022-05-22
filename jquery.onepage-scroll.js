@@ -284,7 +284,7 @@
     $.each( sections, function(i) {
       $(this).css({
         position: "absolute",
-        top: topPos + "%"
+        // top: topPos + "%"
       }).addClass("section").attr("data-index", i+1);
 
 
@@ -293,9 +293,9 @@
         left: ( settings.direction == 'horizontal' )
           ? leftPos + "%"
           : 0,
-        top: ( settings.direction == 'vertical' || settings.direction != 'horizontal' )
-          ? topPos + "%"
-          : 0
+        // top: ( settings.direction == 'vertical' || settings.direction != 'horizontal' )
+        //   ? topPos + "%"
+        //   : 0
       });
 
       if (settings.direction == 'horizontal')
