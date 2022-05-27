@@ -25,7 +25,7 @@ License: The MIT License
                 imgs[i].style.marginLeft = mLeft + "px";
                 imgs[i].style["-webkit-filter"] = "brightness(0.65)";
                 imgs[i].style.zIndex = i + 1;
-                setTransform3D(imgs[i], flat ? 0 : ((index - i) * 10 + 45), 300, flat ? -(index - i) * 10 : (-(index - i) * 30 - 20));
+                setTransform3D(imgs[i], flat ? 0 : ((index - i) * 10 + 45), 400, flat ? -(index - i) * 10 : (-(index - i) * 30 - 20));
             }
             imgs[index].style["-webkit-filter"] = "none";
             imgs[index].style.marginLeft = (mLeft + imgSize * .5) + "px";
@@ -44,7 +44,7 @@ License: The MIT License
                 imgs[i].style.marginLeft = (mLeft + imgSize) + "px";
                 imgs[i].style["-webkit-filter"] = "brightness(0.7)";
                 imgs[i].style.zIndex = imgs.length - i;
-                setTransform3D(imgs[i], flat ? 0 : ((index - i) * 10 - 45), 300, flat ? (index - i) * 10 : ((index - i) * 30 - 20));
+                setTransform3D(imgs[i], flat ? 0 : ((index - i) * 10 - 45), 400, flat ? (index - i) * 10 : ((index - i) * 30 - 20));
             }
         };
         var coverflowScroll = function (imgSize, spacing, c, imgs, flat, titleBox) {
@@ -74,7 +74,7 @@ License: The MIT License
                 imgs[i].style.position = "absolute";
                 imgs[i].style.width = imgSize + "px";
                 imgs[i].style.height = "auto";
-                imgs[i].style.bottom = "60px";
+                imgs[i].style.bottom = "80px";
                 if(!shadow && imgShadow)
                     // imgs[i].style.boxShadow = "0 10px 30px ";
                 imgs[i].style["transition"] = browserPrefix + "transform .4s ease, margin-left .4s ease, -webkit-filter .4s ease";
