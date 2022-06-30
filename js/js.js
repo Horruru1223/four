@@ -5,7 +5,7 @@ $(document).ready(function() {
    });
 
    $(".click_t_u_l_2").click(function(){
-     $('.modal_main').removeClass("none");
+     $('.open_modal').removeClass("none");
     });
 
     $(".text_under_logo").click(function(){
@@ -17,71 +17,81 @@ $(document).ready(function() {
       });
 
      let current = 0;
-          $(".slide1").click(function(){
+          $("#slide1").click(function(){
             if (current == 0){
-            $(".bg2r, .bg3r").css("display","none");
-            $(".bg1r").css("display","block");
+            $(".bg2r, .bg3r, .bg4r, .bg5r, .bg6r, .bg7r, .child, .job, .fam, .ng, .leto, .school ").css("display","none");
+            $(".bg1r, .travel").css("display","block");
             current++;
             }
             else if (current == 1){
-            $(".bg1r, .bg3r").css("display","none");
-            $(".bg2r").css("display", "block");
+            $(".bg1r, .bg3r, .bg4r, .bg5r, .bg6r, .bg7r, .travel, .job, .fam, .ng, .leto, .school  ").css("display","none");
+            $(".bg2r, .child").css("display", "block");
             current++;
             }
-            else if(current => 2){
-            $(".bg1r, .bg2r").css("display","none");
-            $(".bg3r").css("display", "block");
+            else if(current == 2){
+            $(".bg2r, .bg1r, .bg4r, .bg5r, .bg6r, .bg7r, .child, .travel, .fam, .ng, .leto, .school ").css("display","none");
+            $(".bg3r, .job").css("display", "block");
+            current ++;
+            }
+            else if(current == 3){
+            $(".bg2r, .bg3r, .bg1r, .bg5r, .bg6r, .bg7r, .child, .job, .travel, .ng, .leto, .school ").css("display","none");
+            $(".bg4r, .fam").css("display", "block");
+            current ++;
+            }
+            else if(current == 4){
+            $(".bg2r, .bg3r, .bg4r, .bg1r, .bg6r, .bg7r, .child, .job, .fam, .travel, .leto, .school ").css("display","none");
+            $(".bg5r, .ng").css("display", "block");
+            current ++;
+            }
+            else if(current == 5){
+            $(".bg2r, .bg3r, .bg4r, .bg5r, .bg1r, .bg7r, .child, .job, .fam, .ng, .travel, .school ").css("display","none");
+            $(".bg6r, .leto").css("display", "block");
+            current ++;
+            }
+            else if(current => 6){
+            $(".bg2r, .bg3r, .bg4r, .bg5r, .bg6r, .bg1r, .child, .job, .fam, .ng, .leto, .travel ").css("display","none");
+            $(".bg7r, .school").css("display", "block");
             current = 0;
             }
-            // else if(current == 3){
-            // $(.msg1, .msg2, .msg3, .msg4, .msg6).css(display,none);
-            // $(.msg5).css(display, block);
-            // current++;
-            // }
-            // else if(current == 4){
-            // $(.msg1, .msg2, .msg3 .msg4, .msg5).css(display,none);
-            // $(.msg6).css(display, block);
-            // current++;
-            // }
-            // else if (current => 5){
-            // $(.msg1).css(display,block);
-            // $(.msg2, .msg3, .msg4, .msg5, .msg6).css(display,none);
-            // current = 0;
-            // }
           });
 
-        // $(.slide2).click(function(){
-        //     if (current <= 0){
-        //     $(".bg6r").css("display","block");
-        //     $(".bg2r, .bg4r, .bg3r, .bg5r, .bg1r").css("display","none");
-        //     current = 5;
-        //     }
-        //     else if (current == 4){
-        //     $(".bg1r, .bg2r, .bg3r, .bg5r, .bg6r").css("display","none");
-        //     $(".bg4r").css("display","block");
-        //     current--;
-        //     }
-        //     else if (current == 3){
-        //     $(".bg1r, .bg2r, .bg5r, .bg4r, .bg6r").css("display", "none");
-        //     $(".bg3r").css("display", "block");
-        //     current--;
-        //     }
-        //     else if (current == 2){
-        //     $(.bg1r, .bg3rr, .bg4r, .bg5r, .bg6r).css(display,none);
-        //     $(.bg2r).css(display, block);
-        //     current--;
-        //     }
-        //     else if (current == 1){
-        //     $(.bg2r, .bg3r, .bg4r, .bg5r, .bg6r).css(display, none);
-        //     $(.bg1r).css(display, block);
-        //     current--;
-        //     }
-        //     else if (current == 5){
-        //     $(.bg3r, .bg2r, .bg4r, .bg1r, .bg6r).css(display,none);
-        //     $(.bg5r).css(display, block);
-        //     current--;
-        //     }
-        //   });
+        $(".slide2").click(function(){
+            if (current <= 0){
+            $(".bg7r, .school").css("display","block");
+            $(".bg2r, .bg3r, .bg4r, .bg5r, .bg6r, .bg1r, .child, .job, .fam, .ng, .leto, .travel").css("display","none");
+            current = 6;
+            }
+            else if (current == 1){
+            $(".bg2r, .bg3r, .bg4r, .bg5r, .bg1r, .bg7r, .child, .job, .fam, .ng, .travel, .school").css("display","none");
+            $(".bg6r, .leto").css("display","block");
+            current--;
+            }
+            else if (current == 2){
+            $(".bg2r, .bg3r, .bg4r, .bg1r, .bg6r, .bg7r, .child, .job, .fam, .travel, .leto, .school").css("display", "none");
+            $(".bg5r, .ng").css("display", "block");
+            current--;
+            }
+            else if (current == 3){
+            $(".bg2r, .bg3r, .bg1r, .bg5r, .bg6r, .bg7r, .child, .job, .travel, .ng, .leto, .school").css("display", "none");
+            $(".bg4r, .fam").css("display", "block");
+            current--;
+            }
+            else if (current == 4){
+            $(".bg2r, .bg1r, .bg4r, .bg5r, .bg6r, .bg7r, .child, .travel, .fam, .ng, .leto, .school").css("display", "none");
+            $(".bg3r, .job").css("display", "block");
+            current--;
+            }
+            else if (current == 5){
+            $(".bg2r, .bg1r, .bg4r, .bg5r, .bg6r, .bg7r, .child, .travel, .fam, .ng, .leto, .school").css("display", "none");
+            $(".bg2r, .child").css("display", "block");
+            current--;
+            }
+            else if (current == 6){
+            $(".bg2r, .bg3r, .bg4r, .bg5r, .bg6r, .bg7r, .child, .job, .fam, .ng, .leto, .school ").css("display", "none");
+            $(".bg1r, .travel").css("display", "block");
+            current --;
+            }
+          });
  let current_2 = 0;
      $(".slide_b1").click(function(){
        if (current_2 == 0){
@@ -95,7 +105,7 @@ $(document).ready(function() {
        current_2++;
        }
        else if(current_2 == 2){
-       $(".books_inter2, .books_inter3, .books_inter4, .books_inter5,.books_inter6,.books_inter7,  .books_inter8,.books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
+       $(".books_inter2, .books_inter1, .books_inter4, .books_inter5,.books_inter6,.books_inter7,  .books_inter8,.books_inter9,.books_inter10,.books_inter11,.books_inter12, .books_inter13, .books_inter14,.books_inter15, .books_inter16,.books_inter17, .books_inter18, .books_inter19, .books_inter20,.books_inter21, .books_inter22, .books_inter23, .books_inter24, .books_inter25, .books_inter26, .books_inter27, .books_inter28, .books_inter29").css("display","none");
        $(".books_inter3").css("display", "block");
        current_2++;
        }
@@ -445,7 +455,7 @@ $(document).ready(function() {
           current_3++;
           }
           else if(current_3 == 10){
-          $(".books_ex2, .books_ex3, .books_ex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex11,.books_ex9, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
+          $(".books_ex2, .books_ex3, .books_sex4, .books_ex5,.books_ex6,.books_ex7, .books_ex8,.books_ex1,.books_ex10,.books_ex11,.books_ex9, .books_ex13, .books_ex14,.books_ex15, .books_ex16,.books_ex17, .books_ex18, .books_ex19, .books_ex20,.books_ex21, .books_ex22, .books_ex23, .books_ex24, .books_ex25, .books_ex26, .books_ex27, .books_ex28, .books_ex29").css("display","none");
           $(".books_ex12").css("display", "block");
           current_3++;
           }
@@ -479,6 +489,46 @@ $(document).ready(function() {
           $(".books_ex18").css("display", "block");
           current_3 = 0;
           }
-
         });
+
+        $(".vid1").hover(function(){
+          $('.firstvideo').removeClass("none");
+         });
+
+        $(".vid2").hover(function(){
+          $('.secondvideo').removeClass("none");
+          $('.twevideo').removeClass("none");
+        });
+
+        $(".vid3").hover(function(){
+          $('.trevideo').removeClass("none");
+          $('.twevideo').removeClass("none");
+        });
+
+        $(".vid4").hover(function(){
+          $('.fourvideo').removeClass("none");
+          $('.fivtvideo').removeClass("none");
+        });
+
+        $(".vid5").hover(function(){
+          $('.fivetvideo').removeClass("none");
+          $('.elevenvideo').removeClass("none");
+        });
+
+        $(".vid6").hover(function(){
+          $('.sixvideo').removeClass("none");
+          $('.sixtvideo').removeClass("none");
+        });
+
+        $(".vid7").hover(function(){
+          $('.sevenvideo').removeClass("none");
+          $('.tenvideo').removeClass("none");
+        });
+
+        $(".vid8").hover(function(){
+          $('.eightvideo').removeClass("none");
+          $('.ninevideo').removeClass("none");
+        });
+
+
 });
