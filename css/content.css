@@ -2008,13 +2008,22 @@ filter: blur(6px);
   left: 14%;
 }
 
+#gridsss {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 34vh;
+  top: 22%;
+  left: 18%;
+}
+
 #grid1 {
   position: absolute;
   display: flex;
   flex-direction: column;
-  grid-gap: 35vh;
-  top: 12%;
-  left: 60%;
+  grid-gap: 39vh;
+  top: 22%;
+  left: 69%;
 }
 
 #grid11{
@@ -2023,7 +2032,7 @@ filter: blur(6px);
   flex-direction: column;
   grid-gap: 60vh;
   top: 68%;
-  left: 16%;
+  left: 18%;
 }
 
 #grid12{
@@ -2032,35 +2041,25 @@ filter: blur(6px);
   flex-direction: column;
   grid-gap: 60vh;
   top: 68%;
-  left: 60%;
+  left: 69%;
 }
 
 #grid14{
   position: absolute;
-      display: flex;
-      flex-direction: column;
-      grid-gap: 62vh;
-      top: 85%;
-      left: 60%;
-      filter: blur(2.5px);
-}
-
-#grid14:hover{
-  filter: blur(0px);
+  display: flex;
+  flex-direction: column;
+  grid-gap: 62vh;
+  top: 85%;
+  left: 69%;
 }
 
 #grid13{
   position: absolute;
-      display: flex;
-      flex-direction: column;
-      grid-gap: 62vh;
-      top: 85%;
-      left: 16%;
-      filter: blur(2.5px);
-}
-
-#grid13:hover{
-  filter: blur(0px);
+  display: flex;
+  flex-direction: column;
+  grid-gap: 62vh;
+  top: 85%;
+  left: 18%;
 }
 
 .gridimg{
@@ -2081,7 +2080,11 @@ filter: blur(6px);
 .agridimg{
    object-fit: cover;
    width: 28%;
-   left: 12%;
+}
+
+.vgridimg{
+   object-fit: cover;
+   width: 50%;
 }
 
 .gridimgs{
@@ -2358,10 +2361,10 @@ filter: blur(0px);
 
 .error1{
  z-index: 1001;
- top: 14.5vh;
+ top: 22.5vh;
  left: 11vw;
  position: absolute;
- line-height: 23px;
+ line-height: 3px;
 }
 
 #circle{
@@ -2479,4 +2482,25 @@ filter: blur(0px);
 
 #circle8:hover{
   filter: blur(0px);
+}
+
+.dddddd{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 3vh;
+  top: 24%;
+  left: 59%;
+  width: 15vw;
+  font-size: 1.7vh;
+  height: 6vh;
+}
+
+.borderr{
+  border: 5px solid white;
+  border-radius: 8px ;
+}
+
+.submit{
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
