@@ -4,12 +4,16 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="css/style.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery-3.6.0.js" charset="utf-8"> </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script charset="utf-8" src="js/js.js"></script>
-    <link href='https://fonts.google.com/specimen/Bitter#standard-styles' rel='stylesheet' type='text/css'>
-
-
+    <script src="jquery.onepage-scroll.js"></script>
+    <script src="scroll-slide.min.js"></script>
+    <link rel="stylesheet" href="onepage-scroll.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.css" integrity="sha512-hGBKkjAVJUXoImyDezOKpzuY4LS1eTvJ4HTC/pbxn47x5zNzGA1vi3vFQhhOehWLTNHdn+2Yqh/IRNPw/8JF/A==" crossorigin="anonymous" />
+    <script charset="utf-8" src="js/js.js"></script>
     <style>
        @font-face {
         font-family: 'Helvetica';
@@ -31,7 +35,7 @@
          font-family: 'HelveticaBold', bold;
          font-size: 3em;
          color: white;
-         line-height: 46px;
+         line-height: 50px;
        }
 
        h3{
@@ -47,14 +51,25 @@
          line-height: 35px;
        }
 
+       .gradient3{
+         width: 633px;
+         height: 100%;
+         position: absolute;
+         z-index: 9;
+         left: 60%;
+         top: 300%;
+       }
+
+       .gradient3:hover{
+         opacity: 0%;
+       }
+
       </style>
 
   </head>
   <body>
 
-  <div class="container">
-
-<img class="bg1" src="images/bg1.png" alt="">
+  <div class="main">
 
    <section>
     <div class="up">
@@ -62,14 +77,25 @@
       <a href="about.html" class="one"><h2>о центре</h2></a>
       <a href="rooms.html" class="two"><h2>бронь комнаты</h2></a>
       <a href="ivent.html" class="three"><h2>мероприятия</h2></a>
-      <a href="" class="four"><h2>магазин</h2></a>
+      <a href="shop.html" class="four"><h2>магазин</h2></a>
+    </div>
+
+    <img class="bg1" src="images/posters.png">
+
+
+    <div class="text_bg1">
+      <h3>мероприятия, которые проводит центр, помогут вам вернуть забытые воспоминания и дадут вам <br>
+    новые эмоции.
+    <br> <br>
+    <!-- главная цель нашего проекта – помочь вам найти мотивацию двигаться дальше <br>и получить приятные эмоции
+    <br>от посещения центра.</h3> -->
     </div>
    </section>
 
-   <section class="s1">
+   <section>
     <div class="text_ev1">
      <h1>
-       ЛЕКЦИЯ «ОДНИ ВОПРОСЫ»<br>
+       ЛЕКЦИЯ<br>«ОДНИ ВОПРОСЫ»<br>
        11.11 – 12.11
      </h1>
     </div>
@@ -83,19 +109,19 @@
      </h2>
     </div>
 
+<a href="error1.html">
     <div class="text_ev3">
      <h3>
        записаться
      </h3>
     </div>
+    </a>
 
     <img class="gradient" src="images/gradient.png">
-    <img class="bear" src="images/bear.png">
-    <img class="flower" src="images/flowers.png">
-    <img class="eye" src="images/eyes.png">
+    <div class="bear"></div>
    </section>
 
-   <section class="s2">
+   <section>
     <div class="text_ev2_1">
      <h1>
       ОТКРЫТЫЙ МИКРОФОН<br>
@@ -111,20 +137,20 @@
      </h2>
     </div>
 
+<a href="error1.html">
     <div class="text_ev2_3">
      <h3>записаться</h3>
     </div>
-
-    <img class="post1" src="images/post1.png">
-    <img class="post2" src="images/post2.png">
-    <img class="post3" src="images/post3.png">
+    </a>
+      <img class="gradient1" src="images/gradient.png">
+<div class="postertwo"></div>
     </section>
 
 
-   <section class="s2">
+   <section>
     <div class="text_ev3_1">
      <h1>
-       ВЫСТАВКА «ДÖРРЕН»<br>
+       ВЫСТАВКА<br>«ДÖРРЕН»<br>
        19.9 – 23.11
      </h1>
     </div>
@@ -136,16 +162,36 @@
      </h2>
     </div>
 
+<a href="error1.html">
     <div class="text_ev3_3">
      <h3>записаться</h3>
     </div>
+</a>
 
-     <img class="poster1" src="images/poster1.png">
-     <img class="poster2" src="images/poster2.png">
-     <img class="poster3" src="images/poster3.png">
+    <img class="gradient3" src="images/gradient.png">
+    <div class="posterthree"></div>
      </section>
-    </div>
    </div>
+
+
+   <script>
+   $(".main").onepage_scroll({
+    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+    easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+                                     // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+    animationTime: 1000,              // AnimationTime let you define how long each section takes to animate
+    pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+    updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+    beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+    afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+    loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+    keyboard: true,                  // You can activate the keyboard controls
+    responsiveFallback: false,       // You can fallback to normal page scroll by defining the width of the browser in which
+                                     // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+                                     // the browser's width is less than 600, the fallback will kick in.
+    direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".
+   });
+   </script>
 
   </body>
 </html>
