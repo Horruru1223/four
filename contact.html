@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="icon" href="images/fav.png" type="image/png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script charset="utf-8" src="js/js.js"></script>
     <link href='https://fonts.google.com/specimen/Bitter#standard-styles' rel='stylesheet' type='text/css'>
@@ -50,17 +50,21 @@
          line-height: 35px;
        }
 
-       h3{
-         font-family: 'HelveticaRegular', normal;
-         font-size: 1.5em;
-         color: black;
-         line-height: 35px;
-       }
-
       </style>
 
   </head>
   <body>
+
+<div class="dddddd">
+<div class="zap"> <h2>ОСТАВЬТЕ ЗАЯВКУ</h2> </div>
+  <input type="text" class="name borderr" name="name" required="" minlength="3" maxlength="25" placeholder="имя">
+  <input type="text" class="name2 borderr" name="name" required="" minlength="3" maxlength="25" placeholder="фамилия">
+  <input type="email " class="email borderr" name="login" required="" minlength="6" maxlength="25" placeholder="почта">
+  <input type="tel" class="email borderr" name="login" required="" minlength="6" maxlength="25" placeholder="номер телефона">
+  <div class="submit hov1"> <h2>ОТПРАВИТЬ</h2> </div>
+
+</div>
+
 
     <div class="up">
       <a href="index.html"><img class="circle" src="images/circle.png" alt=""></a>
@@ -73,36 +77,81 @@
     </div>
 
     <div class="error1">
-      <h2>
       <br>
       <br>
-      Наш адрес
       <br>
-      Ул. Митинская, дом 32к3
+      <h2>НАШ АДРЕС</h2>
       <br>
-      <br>
-      Часы работы
-      <br>
-      Вт - Вс с 8:00 до 20:00
+      <h2>ул. митинская, дом 32к3</h2>
       <br>
       <br>
-      Телефон
-      <br>
-      +7(800)555-35-35
       <br>
       <br>
-      Электронная почта
-      <br>
-      dejavu@gmail.com
       <br>
       <br>
-      instagram
       <br>
-      @dejavuinst
-      </h2>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2>ЧАСЫ РАБОТЫ</h2>
+      <br>
+      <h2>вт - вс с 8:00 до 20:00</h2>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2>ТЕЛЕФОН</h2>
+      <br>
+      <h2>+7(800)555-35-35</h2>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2>ЭЛЕКТРОННАЯ ПОЧТА</h2>
+      <br>
+      <h2>dejavu@gmail.com</h2>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2>INSTAGRAM</h2>
+      <br>
+      <h2>@dejavuinst</h2>
     </div>
 
     <img class="ash" src="images/ash.png">
+
+<script>
+$(function(){
+  $(".submit").click(function(){
+    $( ".name" ).val("");
+    $( ".name2" ).val("");
+    $( ".email" ).val("");
+});
+});
+</script>
 
   </body>
 </html>
