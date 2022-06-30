@@ -1,7 +1,5 @@
 body {
     position: absolute;
-    /* max-width: 1000px; */
-    /* height: 100%; */
     left: 0;
     right: 0;
     margin: auto;
@@ -10,35 +8,8 @@ body {
 .coverflow {
     left: 0;
     right: 0;
-    /* margin: auto; */
 }
-/* #div-A {
-    background: yellow;
-}
-.title {
-    float: left;
-    font-family: Garamond, "Big Caslon", "Times New Roman", serif;
-    font-size: 25px;
-    font-weight: 100;
-    margin: 0.67em 0;
-    color: ;
-} */
-/* div.title {
-    float: right;
-}
-.title small {
-    font-size: 15px;
-    color: #EF4040;
-    vertical-align: super;
-} */
-/* a {
-    color: #444;
-    text-decoration: none;
-    border-bottom: 1px solid;
-} */
-/* .clear {
-    clear: both;
-} */
+
 .centering {
     display: block;
     font-family: 'HelveticaBold', bold;
@@ -55,9 +26,6 @@ code {
     vertical-align: bottom;
     overflow: scroll;
 }
-/* pre {
-    margin: 0;
-} */
 .demo {
     margin: 10em;
 }
