@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script charset="utf-8" src="js/js.js"></script>
+
+    <script>
+       window.onload = function () {
+       document.body.classList.add('loaded_hiding');
+       window.setTimeout(function () {
+       document.body.classList.add('loaded');
+       document.body.classList.remove('loaded_hiding');
+     }, 500);
+    }
+    </script>
+
+    <style>
+       @font-face {
+        font-family: 'Helvetica';
+        src: url(fonts/HelveticaBold.ttf);
+       }
+
+       @font-face {
+        font-family: 'Helvetica';
+        src: url(fonts/HelveticaRegular.ttf);
+       }
+
+       body{
+         background: black;
+         line-height: 35px;
+         color: white;
+       }
+
+       h1{
+         font-family: 'HelveticaBold', bold;
+         font-size: 3em;
+         color: white;
+         line-height: 46px;
+       }
+
+       h3{
+         font-family: 'HelveticaThin', thin;
+         font-size: 1.5em;
+         color: white;
+         opacity: 0%;
+       }
+
+       h2{
+         font-family: 'HelveticaRegular', normal;
+         font-size: 1.5em;
+         color: white;
+         line-height: 35px;
+       }
+
+       h4{
+         font-family: 'HelveticaRegular', normal;
+         font-size: 1.5em;
+         color: black;
+         line-height: 35px;
+       }
+
+      </style>
+
+  </head>
+  <body>
+
+<div class="container">
+   <section>
+    <div class="up">
+      <a href="shop.html"><img class="circle" src="images/circle.png" alt=""></a>
+      <h1>ОДЕЖДА</h1>
+      <h3>ОДЕЖДА</h3>
+      <h3>ОДЕЖДА</h3>
+      <h3>ОДЕЖДА</h3>
+      <h3>ОДЕЖДА</h3>
+      <h3>ОДЕЖДА</h3>
+    </div>
+   </section>
+
+   <div class="preloader">
+     <div class="preloader__row">
+       <img class="circleload" src="images/circle.png">
+     </div>
+   </div>
+
+   <div id="grid">
+     <div><img class="gridimg" src="images/tishka.png" alt=""></div>
+     <div><img class="gridimg" src="images/hat.png" alt=""></div>
+    </div>
+
+    <div id="grid11">
+      <div><h2>футболка «Дежавю»<br>1000₽</h2></div>
+      <div><h2>панама  «Дежавю»<br>500₽</h2></div>
+    </div>
+
+    <div id="grid12">
+      <div><h2>шоппер<br>700₽</h2></div>
+      <div><h2>кружка<br>1000₽</h2></div>
+    </div>
+
+    <div id="grid13">
+      <a href="error3.html"><div><h2>купить</h2></div></a>
+    <a href="error3.html"><div><h2>купить</h2> <h4>regbnm <br>regbnm </h4> </div></a>
+    </div>
+
+    <div id="grid14">
+      <a href="error3.html"><div><h2>купить</h2></div></a>
+    <a href="error3.html"><div><h2>купить</h2> <h4>regbnm <br>regbnm </h4> </div></a>
+    </div>
+
+    <div id="grid1">
+     <div><img class="gridimgs" src="images/shop.png" alt=""></div>
+     <div><img class="gridimgs" src="images/cup.png" alt=""></div>
+    </div>
+
+
+
+
+</div>
+
+  </body>
+</html>
