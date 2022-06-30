@@ -60,15 +60,15 @@ h3{
 }
 
 .up{
-top: 4vh;
-width: 100%;
-height: 10%;
-z-index: 2000;
-position: absolute;
-display: flex;
-justify-content: space-around;
-filter: blur(2.3px);
-/* cursor: url("../images/cursorpointer.svg"), auto; */
+  top: 4vh;
+  width: 100%;
+  height: 10%;
+  z-index: 2000;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  filter: blur(2.3px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .up:hover{
@@ -105,7 +105,6 @@ filter: blur(2.3px);
   animation-name: underlogo;
   animation-timing-function: ease;
   position: absolute;
-  /* filter: blur(2.3px); */
   cursor: url("../images/cursorpointer.svg"), auto;
 }
 
@@ -115,9 +114,9 @@ filter: blur(2.3px);
 }
 
 @keyframes underlogo {
-       0%   { filter: blur(1.5px); }
-       50%  { filter: blur(2.5px); }
-       100% { filter: blur(1.5px); }
+  0%   { filter: blur(1.5px); }
+  50%  { filter: blur(2.5px); }
+  100% { filter: blur(1.5px); }
 }
 
 .contact{
@@ -149,10 +148,10 @@ filter: blur(2.3px);
 }
 
 @keyframes bounce-1 {
-       0%   { transform: translateY(0); }
-       50%  { transform: translateY(-10px); }
-       100% { transform: translateY(0); }
-   }
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
 
 .one:hover{
   filter: blur(0px);
@@ -164,10 +163,10 @@ filter: blur(2.3px);
 }
 
 @keyframes bounce-2 {
-       0%   { transform: translateY(0); }
-       50%  { transform: translateY(-8px); }
-       100% { transform: translateY(0); }
-   }
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
 
 .two:hover{
   filter: blur(0px);
@@ -179,10 +178,10 @@ filter: blur(2.3px);
 }
 
 @keyframes bounce-3 {
-       0%   { transform: translateY(0); }
-       50%  { transform: translateY(-14px); }
-       100% { transform: translateY(0); }
-   }
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-14px); }
+  100% { transform: translateY(0); }
+}
 
 .three:hover{
   filter: blur(0px);
@@ -194,10 +193,10 @@ filter: blur(2.3px);
 }
 
 @keyframes bounce-4 {
-       0%   { transform: translateY(0); }
-       50%  { transform: translateY(-13px); }
-       100% { transform: translateY(0); }
-   }
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-13px); }
+  100% { transform: translateY(0); }
+}
 
 .four:hover{
   filter: blur(0px);
@@ -238,6 +237,7 @@ filter: blur(2.3px);
   background: radial-gradient(at 0% 30%, white 10px, #4D4D4D 30%, black 50%);
   opacity: 100%;
   position: absolute;
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .closer{
@@ -276,7 +276,7 @@ filter: blur(2.3px);
 }
 
 .none{
-display: none;
+  display: none;
 }
 
 #slide1{
@@ -373,14 +373,11 @@ display: none;
 .back{
   position: fixed;
   left: 85%;
-
 }
 
 .thumb-item{
   z-index: 1;
 }
-
-
 
 .bg1{
   height: 100vh;
@@ -557,63 +554,63 @@ display: none;
 }
 
 .ex1{
- width: 100%;
- position: absolute;
- z-index: 66;
- top: 200%;
- height: 40%;
+  width: 100%;
+  position: absolute;
+  z-index: 66;
+  top: 200%;
+  height: 40%;
 }
 
 .ex2{
- width: 100%;
- position: absolute;
- z-index: 77;
- top: 200%;
- height: 40%;
- -webkit-animation-name: slide;
- -webkit-animation-duration: 8s;
- -webkit-animation-iteration-count: infinite;
--webkit-animation-direction: alternate;
--webkit-animation-play-state: running;
+  width: 100%;
+  position: absolute;
+  z-index: 77;
+  top: 200%;
+  height: 40%;
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
 }
 
 .ex3{
- width: 100%;
- position: absolute;
- z-index: 88;
- top: 200%;
- height: 40%;
- -webkit-animation-name: slide;
- -webkit-animation-duration: 10s;
- -webkit-animation-iteration-count: infinite;
--webkit-animation-direction: alternate;
--webkit-animation-play-state: running;
+  width: 100%;
+  position: absolute;
+  z-index: 88;
+  top: 200%;
+  height: 40%;
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
 }
 
 .ex4{
- width: 100%;
- position: absolute;
- z-index: 99;
- top: 200%;
- height: 40%;
- -webkit-animation-name: slide;
- -webkit-animation-duration: 15s;
- -webkit-animation-iteration-count: infinite;
--webkit-animation-direction: alternate;
--webkit-animation-play-state: running;
+  width: 100%;
+  position: absolute;
+  z-index: 99;
+  top: 200%;
+  height: 40%;
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
 }
 
 .ex5{
- width: 100%;
- position: absolute;
- z-index: 100;
- top: 200%;
- height: 40%;
- -webkit-animation-name: slide;
- -webkit-animation-duration: 20s;
- -webkit-animation-iteration-count: infinite;
--webkit-animation-direction: alternate;
--webkit-animation-play-state: running;
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  top: 200%;
+  height: 40%;
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
 }
 
 @-webkit-keyframes slide{
@@ -640,12 +637,14 @@ display: none;
 }
 
 .travel{
-position: absolute;
-z-index: 100;
-top: 85%;
-left: 36%;
-opacity: 50%;
-filter: blur(6px);
+  position: absolute;
+  z-index: 100;
+  top: 85%;
+  left: 36%;
+  opacity: 50%;
+  filter: blur(6px);
+  cursor: url("../images/cursorpointer.svg"), auto;
+
 }
 
 .travel:hover{
@@ -655,12 +654,13 @@ filter: blur(6px);
 
 .child{
   position: absolute;
-z-index: 100;
-top: 85%;
-left: 39.5%;
-display: none;
-opacity: 50%;
-filter: blur(6px);
+  z-index: 100;
+  top: 85%;
+  left: 39.5%;
+  display: none;
+  opacity: 50%;
+  filter: blur(6px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .child:hover{
@@ -669,13 +669,14 @@ filter: blur(6px);
 }
 
 .job{
-position: absolute;
-z-index: 100;
-top: 85%;
-left: 41.5%;
-display: none;
-opacity: 50%;
-filter: blur(6px);
+  position: absolute;
+  z-index: 100;
+  top: 85%;
+  left: 41.5%;
+  display: none;
+  opacity: 50%;
+  filter: blur(6px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .job:hover{
@@ -684,13 +685,14 @@ filter: blur(6px);
 }
 
 .ng{
-position: absolute;
-z-index: 100;
-top: 85%;
-left: 38.5%;
-display: none;
-opacity: 50%;
-filter: blur(6px);
+  position: absolute;
+  z-index: 100;
+  top: 85%;
+  left: 38.5%;
+  display: none;
+  opacity: 50%;
+  filter: blur(6px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .ng:hover{
@@ -699,13 +701,13 @@ filter: blur(6px);
 }
 
 .school{
-position: absolute;
-z-index: 100;
-top: 85%;
-left: 41.5%;
-display: none;
-opacity: 50%;
-filter: blur(6px);
+  position: absolute;
+  z-index: 100;
+  top: 85%;
+  left: 41.5%;
+  display: none;
+  opacity: 50%;
+  filter: blur(6px);
 }
 
 .school:hover{
@@ -714,13 +716,14 @@ filter: blur(6px);
 }
 
 .leto{
-position: absolute;
-z-index: 100;
-top: 85%;
-left: 43.5%;
-display: none;
-opacity: 50%;
-filter: blur(6px);
+  position: absolute;
+  z-index: 100;
+  top: 85%;
+  left: 43.5%;
+  display: none;
+  opacity: 50%;
+  filter: blur(6px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .leto:hover{
@@ -729,13 +732,14 @@ filter: blur(6px);
 }
 
 .fam{
-position: absolute;
-z-index: 100;
-top: 85%;
-left: 42.5%;
-display: none;
-opacity: 50%;
-filter: blur(6px);
+  position: absolute;
+  z-index: 100;
+  top: 85%;
+  left: 42.5%;
+  display: none;
+  opacity: 50%;
+  filter: blur(6px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .fam:hover{
@@ -751,19 +755,19 @@ filter: blur(6px);
 }
 
 #r1{
- width: 40%;
- position: absolute;
- z-index: 6;
- top: 100%;
- height: 100%;
+  width: 40%;
+  position: absolute;
+  z-index: 6;
+  top: 100%;
+  height: 100%;
 }
 
 #r2{
- width: 40%;
- position: absolute;
- z-index: 7;
- top: 200%;
- height: 100%;
+  width: 40%;
+  position: absolute;
+  z-index: 7;
+  top: 200%;
+  height: 100%;
 }
 
 .text_r1{
@@ -1152,6 +1156,7 @@ filter: blur(6px);
   top: 50vh;
   position: absolute;
   z-index: 31;
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .lisust{
@@ -1159,6 +1164,7 @@ filter: blur(6px);
   top: 50vh;
   position: absolute;
   z-index: 32;
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .jrat{
@@ -1166,14 +1172,18 @@ filter: blur(6px);
   top: 50vh;
   position: absolute;
   z-index: 33;
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
+
 
 .host{
   left: 92%;
   top: 50vh;
   position: absolute;
   z-index: 34;
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
+
 .circle2{
   width: 1.5%;
   z-index: 25;
@@ -1219,6 +1229,7 @@ filter: blur(6px);
   z-index: 4;
   top: 99.8%;
   opacity: 100%;
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 .gradient:hover{
@@ -1250,6 +1261,8 @@ filter: blur(6px);
   z-index: 13;
   filter: blur(2.3px);
   font-style: italic;
+  cursor: url("../images/cursorpointer.svg"), auto;
+
 }
 
 .text_ev3:hover{
@@ -1291,8 +1304,6 @@ filter: blur(6px);
 .s2{
   width: 100%;
   top: 200%;
-  /* position: absolute;
-  z-index: 30; */
 }
 
 .postertwo{
@@ -1314,6 +1325,8 @@ filter: blur(6px);
   z-index: 7;
   left: 60%;
   top: 200%;
+  cursor: url("../images/cursorpointer.svg"), auto;
+
 }
 
 .gradient1:hover{
@@ -1326,6 +1339,8 @@ filter: blur(6px);
   position: absolute;
   z-index: 13;
   line-height: 46px;
+  cursor: url("../images/cursorpointer.svg"), auto;
+
 }
 
 .text_ev3_2{
@@ -1335,6 +1350,8 @@ filter: blur(6px);
   position: absolute;
   z-index: 13;
   line-height: 35px;
+  cursor: url("../images/cursorpointer.svg"), auto;
+
 }
 
 .text_ev3_3{
@@ -1559,7 +1576,7 @@ filter: blur(6px);
   display: none;
 }
 
-.books_inte5{
+.books_inter15{
   width: 57%;
   position: absolute;
   z-index: 15;
@@ -1568,7 +1585,7 @@ filter: blur(6px);
   display: none;
 }
 
-.books_inte6{
+.books_inter16{
   width: 57%;
   position: absolute;
   z-index: 16;
@@ -1577,7 +1594,7 @@ filter: blur(6px);
   display: none;
 }
 
-.books_inte7{
+.books_inter17{
   width: 57%;
   position: absolute;
   z-index: 17;
@@ -1910,30 +1927,19 @@ filter: blur(6px);
   100% { filter: blur(0px); }
 }
 
-
-
-/* .space{
-  width: 79%;
-} */
-
-/* .solid2{
-  position: absolute;
-  z-index: 300;
-} */
-
 @media (min-width:414px) and (max-width:415px) {
-  .bggif{
-    width: 100px;
-    height: 1000px;
-    z-index: -1;
-    position: absolute;
-    display: none;
+.bggif{
+   width: 100px;
+   height: 1000px;
+   z-index: -1;
+   position: absolute;
+   display: none;
   }
 
-  h2{
-    font-family: 'HelveticaRegular', normal;
-    font-size: 7em;
-    color: white;
+h2{
+  font-family: 'HelveticaRegular', normal;
+  font-size: 7em;
+  color: white;
   }
 }
 
@@ -1993,6 +1999,8 @@ filter: blur(6px);
 
 .k{
   filter: blur(2.5px);
+  cursor: url("../images/cursorpointer.svg"), auto;
+
 }
 
 .k:hover{
@@ -2130,6 +2138,10 @@ filter: blur(6px);
   left: 80%;
   filter: blur(3px);
   opacity: 60%;
+  cursor: url("../images/cursorpointer.svg"), auto;
+}
+
+.img{
   cursor: url("../images/cursorpointer.svg"), auto;
 }
 
@@ -2327,6 +2339,7 @@ left: 41%;
 top: 141%;
 width: 1%;
 filter: blur(2.6px);
+
 }
 
 .modal_circle:hover{
@@ -2353,9 +2366,9 @@ filter: blur(0px);
 
 
 @keyframes ash {
-       0%   { filter: blur(170px); }
-       50% { filter: blur(20px); }
-       100% { filter: blur(170px); }
+  0%   { filter: blur(170px); }
+  50% { filter: blur(20px); }
+  100% { filter: blur(170px); }
 
 }
 
@@ -2374,6 +2387,7 @@ filter: blur(0px);
   width: 2%;
   z-index: 99999;
   filter: blur(10px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 #circle:hover{
@@ -2387,6 +2401,7 @@ filter: blur(0px);
   width: 2%;
   z-index: 99999;
   filter: blur(10px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 #circle1:hover{
@@ -2400,6 +2415,7 @@ filter: blur(0px);
   width: 2%;
   z-index: 99999;
   filter: blur(10px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 #circle2:hover{
@@ -2413,6 +2429,7 @@ filter: blur(0px);
   width: 2%;
   z-index: 99999;
   filter: blur(10px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 #circle3:hover{
@@ -2426,6 +2443,7 @@ filter: blur(0px);
   width: 2%;
   z-index: 99999;
   filter: blur(10px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 #circle4:hover{
@@ -2439,6 +2457,7 @@ filter: blur(0px);
   width: 2%;
   z-index: 99999;
   filter: blur(10px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 #circle5:hover{
@@ -2452,6 +2471,7 @@ filter: blur(0px);
   width: 2%;
   z-index: 99999;
   filter: blur(10px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 #circle6:hover{
@@ -2465,6 +2485,7 @@ filter: blur(0px);
   width: 2%;
   z-index: 99999;
   filter: blur(10px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 #circle7:hover{
@@ -2478,6 +2499,7 @@ filter: blur(0px);
   width: 2%;
   z-index: 99999;
   filter: blur(10px);
+  cursor: url("../images/cursorpointer.svg"), auto;
 }
 
 #circle8:hover{
